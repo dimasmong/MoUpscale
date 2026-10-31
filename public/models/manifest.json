@@ -1,0 +1,59 @@
+[
+  {
+    "id": "realesr-general-x4v3",
+    "name": "Real-ESRGAN General x4v3",
+    "fileName": "realesr-general-x4v3.onnx",
+    "path": "/models/realesr-general-x4v3.onnx",
+    "scale": 4,
+    "architecture": "SRVGGNetCompact",
+    "sizeBytes": 4866417,
+    "sizeFormatted": "4.64 MB",
+    "sha256": "1940a93ee08283a0a7286183186357b1688fe9fa8ede74604b424586aaddf112",
+    "license": "BSD 3-Clause",
+    "author": "Xintao Wang et al. (Tencent ARC Lab)",
+    "description": "Lightweight general-purpose 4x super-resolution model for photos, digital graphics, and scans.",
+    "runtimeCompatibility": [
+      "webgpu",
+      "wasm",
+      "cpu"
+    ]
+  },
+  {
+    "id": "realesr-animevideov3",
+    "name": "Real-ESRGAN AnimeVideo v3",
+    "fileName": "realesr-animevideov3.onnx",
+    "path": "/models/realesr-animevideov3.onnx",
+    "scale": 4,
+    "architecture": "SRVGGNetCompact",
+    "sizeBytes": 2493261,
+    "sizeFormatted": "2.38 MB",
+    "sha256": "0a25cdd3cdfded5566850fe9d9dcb5e08335fbf2e7bb0da73adbb12b020c7ba2",
+    "license": "BSD 3-Clause",
+    "author": "Xintao Wang et al. (Tencent ARC Lab)",
+    "description": "Specialized 4x super-resolution model preserving crisp line-art and vibrant anime/illustration coloring.",
+    "runtimeCompatibility": [
+      "webgpu",
+      "wasm",
+      "cpu"
+    ]
+  },
+  {
+    "id": "esrgan-compact-x2",
+    "name": "Compact ESRGAN x2 Native",
+    "fileName": "esrgan-compact-x2.onnx",
+    "path": "/models/esrgan-compact-x2.onnx",
+    "scale": 2,
+    "architecture": "Compact ESRGAN",
+    "sizeBytes": 2411189,
+    "sizeFormatted": "2.30 MB",
+    "sha256": "75c3f46fb2efd5866d35a39ccd15ffed3277c5afe6da16e6351276a8a087b5e7",
+    "license": "MIT / Apache 2.0",
+    "author": "OpenModelDB / Nomos Community",
+    "description": "Native 2x super-resolution for general images and photos with rapid execution.",
+    "runtimeCompatibility": [
+      "webgpu",
+      "wasm",
+      "cpu"
+    ]
+  }
+]

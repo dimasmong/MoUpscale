@@ -1,0 +1,160 @@
+export type Language = 'en' | 'id';
+
+export interface TranslationDictionary {
+  app: {
+    title: string;
+    tagline: string;
+    description: string;
+  };
+  nav: {
+    workspace: string;
+    batch: string;
+    about: string;
+    faq: string;
+    privacy: string;
+    terms: string;
+    credits: string;
+    github: string;
+  };
+  upload: {
+    dragDropTitle: string;
+    dragDropSubtitle: string;
+    browseButton: string;
+    pasteHint: string;
+    supportsFormats: string;
+    maxRecommended: string;
+    sampleImages: string;
+    trySample: string;
+    replaceImage: string;
+    removeImage: string;
+    clearAll: string;
+  };
+  settings: {
+    title: string;
+    preset: string;
+    scale: string;
+    model: string;
+    tileSize: string;
+    autoTile: string;
+    outputFormat: string;
+    quality: string;
+    customDimensions: string;
+    width: string;
+    height: string;
+    lockAspect: string;
+    advancedTitle: string;
+    denoise: string;
+    sharpen: string;
+    jpegArtifacts: string;
+    detailEnhance: string;
+    edgePreserve: string;
+    texturePreserve: string;
+    colorPreserve: string;
+    preserveAlpha: string;
+    resetDefaults: string;
+    providerWebGPU: string;
+    providerWASM: string;
+    providerCPU: string;
+  };
+  presets: {
+    standard: string;
+    standardDesc: string;
+    photo: string;
+    photoDesc: string;
+    portrait: string;
+    portraitDesc: string;
+    anime: string;
+    animeDesc: string;
+    digitalArt: string;
+    digitalArtDesc: string;
+    fast: string;
+    fastDesc: string;
+    highQuality: string;
+    highQualityDesc: string;
+  };
+  progress: {
+    idle: string;
+    preparing: string;
+    loadingModel: string;
+    initializingEngine: string;
+    processingTiles: string;
+    reconstructing: string;
+    applyingEnhancements: string;
+    encoding: string;
+    completed: string;
+    cancelled: string;
+    error: string;
+    tilesCount: string;
+    elapsed: string;
+    remaining: string;
+    cancelBtn: string;
+  };
+  comparison: {
+    split: string;
+    sideBySide: string;
+    originalOnly: string;
+    enhancedOnly: string;
+    before: string;
+    after: string;
+    zoomIn: string;
+    zoomOut: string;
+    fit: string;
+    actualSize: string;
+    reset: string;
+    dragHint: string;
+  };
+  export: {
+    downloadSelected: string;
+    downloadAllZip: string;
+    downloading: string;
+    fileInfo: string;
+    originalDimensions: string;
+    outputDimensions: string;
+    resolutionIncrease: string;
+    fileSizeRatio: string;
+    executionTime: string;
+    modelUsed: string;
+    providerUsed: string;
+  };
+  batch: {
+    title: string;
+    queue: string;
+    processAll: string;
+    clearCompleted: string;
+    stopAll: string;
+    statusQueued: string;
+    statusProcessing: string;
+    statusCompleted: string;
+    statusError: string;
+    retry: string;
+    itemsCount: string;
+  };
+  errors: {
+    invalidFileType: string;
+    fileCorrupted: string;
+    tooLarge: string;
+    oom: string;
+    webGpuFailed: string;
+    fallbackWasm: string;
+    processingCancelled: string;
+    generalFailed: string;
+    downloadFailed: string;
+  };
+  meta: {
+    dimensions: string;
+    format: string;
+    size: string;
+    megapixels: string;
+    alphaChannel: string;
+    alphaYes: string;
+    alphaNo: string;
+  };
+  modals: {
+    close: string;
+    aboutTitle: string;
+    faqTitle: string;
+    privacyTitle: string;
+    termsTitle: string;
+    creditsTitle: string;
+  };
+}
