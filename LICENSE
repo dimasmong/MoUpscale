@@ -19,12 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-Third-Party Licenses & Attributions:
-- Real-ESRGAN Models: BSD 3-Clause License (Copyright (c) 2021, Xintao Wang et al., Tencent ARC Lab)
-- ONNX Runtime Web: MIT License (Copyright (c) Microsoft Corporation)
-- Compact ESRGAN: MIT / Apache 2.0 (OpenModelDB / Nomos Community)
-- JSZip: Dual licensed MIT or GPLv3 (Stuart Knightley, David Duponchel, Franz Buchinger, António Afonso)
-- Lucide Icons: ISC License (Copyright (c) Lucide Contributors)
